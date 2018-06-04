@@ -7,13 +7,13 @@ namespace MBO_API.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class init : IMigrationMetadata
+    public sealed partial class initProject : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initProject));
         
         string IMigrationMetadata.Id
         {
-            get { return "201707110840245_init"; }
+            get { return "201806040846427_initProject"; }
         }
         
         string IMigrationMetadata.Source

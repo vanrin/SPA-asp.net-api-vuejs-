@@ -1,3 +1,3 @@
 export default {
-  url: 'http://localhost/beta/mbo_api'
+  url: 'http://localhost:61951'
 }

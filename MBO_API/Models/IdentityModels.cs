@@ -58,8 +58,8 @@ namespace MBO_API.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public ApplicationDbContext()
-            : base("MBO", throwIfV1Schema: false)
+        private const string DefaultContext = "MBO";
+        public ApplicationDbContext() : base(DefaultContext)
         {
         }
 
